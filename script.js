@@ -37,6 +37,8 @@ if (navigator.geolocation)
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       }).addTo(map);
 
+      map.on('click', function ())
+
       L.marker(coords)
         .addTo(map)
         .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
